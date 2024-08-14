@@ -11,15 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{881261A1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{32ECEF3D-4F54-47C2-9F0D-4B4D6D9A43A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautySystem.Application", "BeautySystem.Application\BeautySystem.Application.csproj", "{A7042ADD-19B9-465D-9C0D-2CC9AEEE0E99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautySystem.Application", "BeautySystem.Application\BeautySystem.Application.csproj", "{A7042ADD-19B9-465D-9C0D-2CC9AEEE0E99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71B6E1B5-988F-48D3-BEF9-5B7CE6C0D894} = {71B6E1B5-988F-48D3-BEF9-5B7CE6C0D894}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautySystem.Domain", "BeautySystem.Domain\BeautySystem.Domain.csproj", "{71B6E1B5-988F-48D3-BEF9-5B7CE6C0D894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautySystem.Domain", "BeautySystem.Domain\BeautySystem.Domain.csproj", "{71B6E1B5-988F-48D3-BEF9-5B7CE6C0D894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautySystem.Infra.Data", "BeautySystem.Infra.Data\BeautySystem.Infra.Data.csproj", "{0A9481C5-831A-4566-9877-415E3EAE5768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautySystem.Infra.Data", "BeautySystem.Infra.Data\BeautySystem.Infra.Data.csproj", "{0A9481C5-831A-4566-9877-415E3EAE5768}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71B6E1B5-988F-48D3-BEF9-5B7CE6C0D894} = {71B6E1B5-988F-48D3-BEF9-5B7CE6C0D894}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautySystem.Infra.IoC", "BeautySystem.Infra.IoC\BeautySystem.Infra.IoC.csproj", "{F1EB21AC-ECC9-400A-8BBF-C8672F6B0340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautySystem.Infra.IoC", "BeautySystem.Infra.IoC\BeautySystem.Infra.IoC.csproj", "{F1EB21AC-ECC9-400A-8BBF-C8672F6B0340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautySystem.API", "BeautySystem.API\BeautySystem.API.csproj", "{B1227B3C-A9AA-4BD8-9460-2336D0DABFD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautySystem.API", "BeautySystem.API\BeautySystem.API.csproj", "{B1227B3C-A9AA-4BD8-9460-2336D0DABFD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
