@@ -15,4 +15,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BeautySystem.Application\BeautySystem.Application.csproj" />
+    <ProjectReference Include="..\BeautySystem.Infra.IoC\BeautySystem.Infra.IoC.csproj" />
+  </ItemGroup>
+
 </Project>
