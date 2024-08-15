@@ -1,3 +1,4 @@
+using BeautySystem.API.Middlewares;
 using BeautySystem.Application.Mappings;
 using BeautySystem.Infra.IoC.Classes;
 
@@ -27,6 +28,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//Tratamento de Exceções
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
